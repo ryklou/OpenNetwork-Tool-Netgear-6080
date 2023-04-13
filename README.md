@@ -12,14 +12,14 @@
 
 You can install the required libraries using pip:
 
-```bash
-pip install requests matplotlib playsound google-api-python-client google-auth-httplib2 google-auth-oauthlib win10toast
-
-Application Structure
-We will still split the functionality into separate Python files:
+## Application Structure
 
 main.py: The main file to run the application.
 router_monitor.py: Contains functions to interact with the router (get device information, block devices, get and save logs, etc.).
 bandwidth_chart.py: Handles the real-time bandwidth usage chart.
 alerts.py: Manages audible, email, and toast notifications.
 ui_builder.py: Handles the creation of the Tkinter-based user interface.
+
+```bash
+pip install requests matplotlib playsound google-api-python-client google-auth-httplib2 google-auth-oauthlib win10toast
+
